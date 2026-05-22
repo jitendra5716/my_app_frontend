@@ -19,7 +19,6 @@ import {
   Typography,
   Avatar,
 } from "antd";
-// import avatarImg from "../assets/preweding_shoot_photos_Photo_P1393773.jpg";
 
 import {
   PictureOutlined,
@@ -174,7 +173,6 @@ function Gallery() {
             gap: 12,
           }}
         >
-          {/* <Avatar src={avatarImg} size={48} /> */}
           <span style={{ color: "white", fontSize: 16, fontWeight: 500 }}>Babli_Jitendra</span>
         </div>
 
