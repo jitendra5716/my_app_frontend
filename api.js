@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   // baseURL: "http://localhost:5000",
-  baseURL: "https://3ml6dqp77j.execute-api.ap-south-1.amazonaws.com/dev"
+  baseURL: "https://3ml6dqp77j.execute-api.ap-south-1.amazonaws.com"
 });
 
 API.interceptors.request.use((config) => {
